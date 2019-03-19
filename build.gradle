@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'pl.szymonciamaga'
+version = '1.5-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 8
+targetCompatibility = 8
+
+repositories {
+     maven { url "https://repo.maven.apache.org/maven2" }
+}
+
+dependencies {
+
+}
+
